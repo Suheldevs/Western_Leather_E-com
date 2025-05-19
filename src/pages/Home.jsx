@@ -1,7 +1,15 @@
 import React from 'react'
+import HomeCardSlide from '../components/Home/homeCardSlide'
+import CategoryProductGrid from '../components/Home/CategoryProductGrid'
+import SmallBannerSlider from '../components/Home/SmallBannerSlider'
 
 export default function Home() {
   return (
-    <div className='bg-red-800'>Home</div>
+    <>
+    <HomeCardSlide/>
+    <CategoryProductGrid/>
+    <SmallBannerSlider/>
+    <HomeCardSlide/>
+    </>
   )
 }
